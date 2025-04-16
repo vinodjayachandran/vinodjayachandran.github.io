@@ -1,13 +1,13 @@
 
 import React from 'react';
-import { Github, Linkedin, Twitter, Instagram, Mail } from 'lucide-react';
+import { Github, Linkedin, Twitter, Instagram, Mail, Edit, Phone } from 'lucide-react';
 
 const Footer = () => {
   return (
     <footer className="py-8 px-6 text-center">
       <div className="flex justify-center mb-6 space-x-6">
         <a 
-          href="https://github.com" 
+          href="https://github.com/vinodjayachandran" 
           target="_blank" 
           rel="noopener noreferrer"
           className="social-link"
@@ -15,7 +15,7 @@ const Footer = () => {
           <Github size={20} />
         </a>
         <a 
-          href="https://linkedin.com" 
+          href="https://www.linkedin.com/in/vinodjayachandran/" 
           target="_blank" 
           rel="noopener noreferrer"
           className="social-link"
@@ -23,7 +23,7 @@ const Footer = () => {
           <Linkedin size={20} />
         </a>
         <a 
-          href="https://twitter.com" 
+          href="https://x.com/vinthri"
           target="_blank" 
           rel="noopener noreferrer"
           className="social-link"
@@ -31,23 +31,30 @@ const Footer = () => {
           <Twitter size={20} />
         </a>
         <a 
-          href="https://instagram.com" 
+            href="https://doniv.substack.com/" 
           target="_blank" 
           rel="noopener noreferrer"
           className="social-link"
         >
-          <Instagram size={20} />
+          <Edit size={20} />
         </a>
+       
         <a 
-          href="mailto:hello@example.com" 
+          href="mailto:vinodjayachandran@gmail.com" 
           className="social-link"
         >
           <Mail size={20} />
         </a>
+        <a 
+          href="tel:+919886205335" 
+          className="social-link"
+        >
+          <Phone size={20} />
+        </a>
       </div>
       
       <p className="text-portfolio-slate text-sm font-mono">
-        Designed & Built by John Doe
+        Designed & Built by Vinod Jayachandran
       </p>
       <p className="text-portfolio-slate text-xs mt-1">
         &copy; {new Date().getFullYear()} All Rights Reserved

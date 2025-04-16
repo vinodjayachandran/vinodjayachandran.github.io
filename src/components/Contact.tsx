@@ -9,7 +9,7 @@ const Contact = () => {
       <h2 className="text-4xl md:text-5xl font-bold text-portfolio-lightestSlate mb-6">Get In Touch</h2>
       
       <p className="text-portfolio-slate mb-12 max-w-2xl mx-auto">
-        I'm currently looking for new opportunities. Whether you have a question or just want to say hi, 
+      Actively seeking opportunities to drive meaningful impact while growing both personally and professionally. Whether you have a question or just want to say hi, 
         I'll try my best to get back to you!
       </p>
       
@@ -17,7 +17,7 @@ const Contact = () => {
         className="bg-transparent hover:bg-portfolio-teal/10 text-portfolio-teal border border-portfolio-teal px-8 py-4 rounded text-base font-mono"
         asChild
       >
-        <a href="mailto:hello@example.com">Say Hello</a>
+        <a href="mailto:vinodjayachandran@gmail.com">Say Hello</a>
       </Button>
     </section>
   );

@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="space-y-6 max-w-3xl">
         <p className="font-mono text-portfolio-teal opacity-0 animate-fade-in">Hi, my name is</p>
         <h1 className="text-5xl md:text-7xl font-bold text-portfolio-lightestSlate opacity-0 animate-fade-in delay-100">
-          John Doe.
+          Vinod Jayachandran.
         </h1>
         <h2 className="text-4xl md:text-6xl font-bold text-portfolio-slate opacity-0 animate-fade-in delay-200">
           I build things for the web.

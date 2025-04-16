@@ -67,6 +67,7 @@ const Header = () => {
             href="/resume.pdf" 
             target="_blank" 
             rel="noopener noreferrer"
+            download
             className="ml-4"
           >
             <Button 

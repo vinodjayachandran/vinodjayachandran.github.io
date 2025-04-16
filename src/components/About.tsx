@@ -3,10 +3,11 @@ import React from 'react';
 
 const About = () => {
   const skills = [
-    'JavaScript (ES6+)', 'TypeScript', 'React', 
-    'Node.js', 'Express', 'Next.js',
-    'TailwindCSS', 'GraphQL', 'AWS',
-    'Docker', 'Git', 'Jest'
+    'Java', 'Python', 'HTML',
+    'JavaScript', 'TypeScript', 
+    'SQL/NoSQL',
+    'GraphQL', 'AWS',
+    'Docker', 'Git'
   ];
 
   return (
@@ -19,15 +20,23 @@ const About = () => {
       <div className="grid md:grid-cols-3 gap-12 items-start">
         <div className="md:col-span-2 space-y-4 text-portfolio-slate">
           <p>
-            Hello! I'm John, a software developer based in San Francisco, CA. I enjoy creating things
+            Hello! I'm Vinod, a software developer based in Chennai, India. I enjoy creating things
             that live on the internet, whether that be websites, applications, or anything in between.
             My goal is to always build products that provide pixel-perfect, performant experiences.
           </p>
           <p>
-            Shortly after graduating from <span className="text-portfolio-lightestSlate">University of Technology</span>,
-            I joined the engineering team at <span className="text-portfolio-lightestSlate">TechCorp</span> where I work
-            on a wide variety of interesting and meaningful projects on a daily basis.
+            Shortly after graduating from <span className="text-portfolio-lightestSlate">National Institure of Technology, Calicut</span>,
+            I have worked at multiple  companies comprising of both start up and MNCs including <span className="text-portfolio-lightestSlate">Amazon</span> where I work
+            on a wide variety of interesting and meaningful projects on a daily basis across domains like e-commerce, fintech, and cloud platforms.
           </p>
+          <p>
+          My approach to engineering is rooted in pragmatic problem-solving, deep understanding of data structures and systems, and a strong alignment with business goals.
+          I’ve contributed as both an individual contributor and a leader—driving innovation, mentoring teams, and building solutions that deliver measurable value.
+          </p>    
+          <p>
+          I specialize in designing <span className="text-portfolio-lightestSlate"> RESTful APIs, microservices-based architectures, backend systems, cloud architecture (AWS), data pipelines, personalization engines, and platform performance optimization. </span>
+          I hold a patent in dynamic pricing systems and bring a product-oriented mindset to every technical challenge I tackle.
+          </p>     
           <p>
             Here are a few technologies I've been working with recently:
           </p>

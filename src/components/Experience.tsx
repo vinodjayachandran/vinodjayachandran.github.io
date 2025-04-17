@@ -47,7 +47,25 @@ const experiences = [
     title: "Engineering Specialist",
     period: "Aug 2011 - Apr 2015",
     responsibilities: [
-      "Feature Developments for WebMethods Integration Server, such as ",
+      "Feature Developments for WebMethods Integration Server, such as Enterprise Gateway and command central plugins",
+    
+    ]
+  },
+  {
+    company: "Huawei",
+    title: "Technical Team Lead",
+    period: "May 2010 - Aug 2011",
+    responsibilities: [
+      "Product Development for Cloud based solution Flexscale and NMS product U2000",
+    
+    ]
+  },
+  {
+    company: "Amdocs",
+    title: "Subject Matter Expert",
+    period: "June 2006 - May 2008",
+    responsibilities: [
+      "Product development and maintenance of Amdocs Ensemble Billing Solutions",
     
     ]
   }
@@ -63,7 +81,7 @@ const Experience = () => {
 
       <div className="mt-12">
         <Tabs defaultValue={experiences[0].company} className="w-full">
-          <TabsList className="flex flex-wrap md:flex-col md:w-max h-auto mb-4 md:mb-0 md:mr-8 bg-transparent">
+          <TabsList className="flex flex-wrap md:flex-row md:w-max h-auto mb-4 md:mb-0 md:mr-8 bg-transparent">
             {experiences.map((exp) => (
               <TabsTrigger 
                 key={exp.company}

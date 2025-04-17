@@ -34,7 +34,7 @@ const About = () => {
           I’ve contributed as both an individual contributor and a leader—driving innovation, mentoring teams, and building solutions that deliver measurable value.
           </p>    
           <p>
-          I specialize in designing <span className="text-portfolio-lightestSlate"> RESTful APIs, microservices-based architectures, backend systems, cloud architecture (AWS), data pipelines, personalization engines, and platform performance optimization. </span>
+          I specialize in designing, developing, and implementing cutting-edge <span className="text-portfolio-lightestSlate"> artificial intelligence solutions, RESTful APIs, microservices-based architectures, backend systems, cloud architecture (AWS), data pipelines, personalization engines, and platform performance optimization </span> that address complex business challenges.
           I hold a patent in dynamic pricing systems and bring a product-oriented mindset to every technical challenge I tackle.
           </p>     
           <p>

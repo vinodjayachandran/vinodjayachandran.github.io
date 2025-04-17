@@ -4,36 +4,51 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const experiences = [
   {
-    company: "TechCorp",
-    title: "Senior Frontend Developer",
-    period: "January 2022 - Present",
+    company: "Amazon",
+    title: "Senior Software Development Engineer",
+    period: "December 2020 - Present",
     responsibilities: [
-      "Lead the frontend development of the company's flagship product, resulting in a 35% increase in user engagement",
-      "Collaborate with designers to implement responsive and accessible user interfaces using React and TypeScript",
-      "Mentor junior developers and conduct code reviews to maintain high code quality standards",
-      "Introduce and implement modern development practices, including CI/CD, unit testing, and component documentation"
+    "AI based Discovery and Recommendation of products from catalog",
+    "Points based loyalty for customers",
+    "Localisation from Cloud",
+    "Performance optimization (Memory, Latency, CPU, Fluidity) for Android Apps on Fire TV",
+    "User Profile Management on Fire TV",
     ]
   },
   {
-    company: "WebSolutions Inc.",
-    title: "Full Stack Developer",
-    period: "June 2019 - December 2021",
+    company: "Lowe's",
+    title: "Associate Director",
+    period: "Nov 2018 - December 2020",
     responsibilities: [
-      "Developed and maintained multiple client projects using React, Node.js, and MongoDB",
-      "Built RESTful APIs and implemented authentication systems for various web applications",
-      "Improved application performance by optimizing database queries and implementing caching strategies",
-      "Worked directly with clients to gather requirements and provide technical solutions to business problems"
+      "Lead a team of engineers and product managers in the ideation and technical development of innovative enterprise software to streamline and automate critical business processes",
+      "Provide strategic and operational oversight for Enterprise software product development",
+      "Work closely with business leaders to develop short and long-term strategies",
+      "Manage business expectations, resolve conflicts, and keep businesses aligned",
+      "Develop and drive execution on 6 months and 1-year road maps",
+      "Drive innovation, establish new approaches in improving productivity",
+      "Establish a metrics based organization, develop key operational metrics and push for continuous improvement.",
+      "Ensure system security, data integrity, and accuracy of financial records"
     ]
   },
   {
-    company: "StartupX",
-    title: "Frontend Developer",
-    period: "February 2018 - May 2019",
+    company: "BankBazaar",
+    title: "Software Development Manager",
+    period: "April 2015 - Nov 2018",
     responsibilities: [
-      "Implemented responsive web designs using HTML, CSS, and JavaScript",
-      "Collaborated with the UI/UX team to create intuitive user interfaces",
-      "Participated in agile development processes, including daily stand-ups and sprint planning",
-      "Contributed to the company's component library, improving development efficiency across teams"
+      "Personalization engine for financial products",
+      "OAuth 2.0 client implementation",
+      "Crawl and scrape data from multiple sources",
+      "Data pipeline for data ingestion and processing",
+      "Data warehouse and reporting",
+    ]
+  },
+  {
+    company: "Software AG",
+    title: "Engineering Specialist",
+    period: "Aug 2011 - Apr 2015",
+    responsibilities: [
+      "Feature Developments for WebMethods Integration Server, such as ",
+    
     ]
   }
 ];

@@ -7,56 +7,36 @@ import { ExternalLink, Github, Folder } from 'lucide-react';
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-featured e-commerce solution with product management, shopping cart, and checkout functionality. Built with React, Node.js, and MongoDB.",
-    tags: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
-    liveLink: "https://ecommerce-demo.com",
-    repoLink: "https://github.com/johndoe/ecommerce-platform",
+    title: "Web Crawl and Scrape",
+    description: "Crawls multiple URLs -> Download their HTML content -> Extract info and save it as JSON",
+    tags: ["Python"],
+    
+    repoLink: "https://github.com/vinodjayachandran/WebCrawl",
     featured: true,
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2189&q=80"
   },
   {
-    title: "Weather Dashboard",
-    description: "A weather application showing current conditions and forecasts. Uses OpenWeatherMap API and geolocation.",
-    tags: ["React", "OpenWeatherMap API", "Tailwind CSS"],
-    liveLink: "https://weather-dashboard-demo.com",
-    repoLink: "https://github.com/johndoe/weather-dashboard",
-    featured: true,
-    image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-  },
-  {
-    title: "Task Management App",
-    description: "A Kanban-style task management application with drag-and-drop functionality and user authentication.",
-    tags: ["React", "Firebase", "React DnD", "Material UI"],
-    liveLink: "https://task-app-demo.com",
-    repoLink: "https://github.com/johndoe/task-management",
-    featured: true,
-    image: "https://images.unsplash.com/photo-1611224885990-ab7363d7c9e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80"
-  },
-  {
     title: "Portfolio Website",
-    description: "A personal portfolio website built with React and TailwindCSS to showcase projects and skills.",
-    tags: ["React", "TailwindCSS", "Framer Motion"],
-    liveLink: "#",
-    repoLink: "https://github.com/johndoe/portfolio",
-    featured: false
+    description: "A personal portfolio website built with Typescript to showcase projects and skills.",
+    tags: ["Typescript"],
+    liveLink: "https://vinodjayachandran.github.io/",
+    repoLink: "https://github.com/vinodjayachandran/vinodjayachandran.github.io",
+    featured: true
   },
   {
-    title: "Markdown Editor",
-    description: "A web-based markdown editor with real-time preview and syntax highlighting.",
-    tags: ["React", "CodeMirror", "Marked"],
-    liveLink: "https://markdown-editor-demo.com",
-    repoLink: "https://github.com/johndoe/markdown-editor",
-    featured: false
+    title: "Real Estate Website",
+    description: "Website for a real estate builder, showcasing properties and services.",
+    tags: ["Wordpress", "PHP"],
+    liveLink: "https://midtownstructures.com/",
+    featured: true
   },
   {
-    title: "Budget Tracker",
-    description: "A personal finance application to track income, expenses, and generate reports.",
-    tags: ["React", "Chart.js", "Firebase"],
-    liveLink: "https://budget-tracker-demo.com",
-    repoLink: "https://github.com/johndoe/budget-tracker",
+    title: "GitHub Gists",
+    description: "Code snippets covering AI and AWS service use cases.",
+    tags: ["Java", "Python"],
+    liveLink: "https://gist.github.com/vinodjayachandran",
     featured: false
-  }
+  },
 ];
 
 const Projects = () => {
